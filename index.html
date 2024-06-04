@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberCurve CPS Hub</title>
+    <style>
+        body {
+            background-color: #000;
+            color: cyan;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: normal;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        #timer {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        #timerOptions {
+            margin-bottom: 20px;
+        }
+        #cpsTester {
+            width: 300px;
+            height: 300px;
+            background-color: #000;
+            color: cyan;
+            font-size: 2em;
+            border: 2px solid cyan;
+            margin: 0 auto;
+            cursor: pointer;
+            position: relative;
+            border-radius: 20px;
+        }
+        .mark {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            position: absolute;
+            display: none;
+        }
+        #cpsCounter {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        #recordList {
+            text-align: left;
+            margin-top: 20px;
+            border: 2px solid cyan;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #backgroundOptions {
+            margin-top: 20px;
+        }
+        #resetButton {
+            margin-top: 20px;
+            font-size: 1em;
+            padding: 10px;
+            background-color: cyan;
+            color: #000;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CyberCurve CPS Hub</h1>
+    <p>Test your CPS (Clicks Per Second) and see how accurate your clicks are in this futuristic hub.</p>
+    <div id="timer">Time: 
